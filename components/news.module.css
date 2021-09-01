@@ -1,0 +1,14 @@
+.news_container_h1 {
+  padding: 10px;
+}
+.news_container_h1 > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.news_container_h1 > a:hover {
+  color: coral;
+  transition: 0.3s;
+  border: 2px solid coral;
+  padding: 5px 10px;
+  border-radius: 10px;
+}

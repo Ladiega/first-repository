@@ -1,0 +1,57 @@
+.nav_global {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Teko";
+  position: fixed;
+}
+.nav_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  color: #fff1e2;
+  font-size: 30px;
+}
+
+.items_container {
+  padding: 3%;
+}
+.logo_container_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  color: #fff1e2;
+}
+.icon_img {
+  width: 30px;
+}
+
+.nav_item {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff1e2;
+  margin-left: 10px;
+}
+.nav_item:hover {
+  color: red;
+}
+.nav_item_contact {
+  padding: 5px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff1e2;
+}
+.nav_item_contact:hover {
+  background-color: red;
+  color: black;
+}

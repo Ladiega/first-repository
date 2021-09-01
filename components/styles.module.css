@@ -1,0 +1,21 @@
+.hello {
+  font: 15px Helvetica, Arial, sans-serif;
+  background: #eee;
+  padding: 100px;
+  text-align: center;
+  transition: 100ms ease-in background;
+}
+.hello:hover {
+  background: #ccc;
+}
+.p {
+  text-decoration: none;
+  padding: 0.5%;
+  border: 2px solid rgb(241, 79, 79);
+  color: rgb(241, 79, 79);
+  border-radius: 10px;
+}
+.p:hover {
+  background: rgb(241, 79, 79);
+  color: #ccc;
+}

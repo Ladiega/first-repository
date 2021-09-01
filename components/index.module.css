@@ -1,0 +1,12 @@
+.container_index {
+  color: black;
+  font-family: arial;
+}
+.container_anchor {
+  text-decoration: none;
+  color: black;
+}
+.container_anchor:hover {
+  background-color: grey;
+  color: white;
+}
